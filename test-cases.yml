@@ -245,9 +245,7 @@
   test-data: |
     empty
   steps:
-    - Первый пользователь пишет верное решение задачи на node.js: const solution = (width, length) => {
-  return width * length;
- };
+    - Первый пользователь пишет верное решение задачи на node.js: const solution = (width, length) => { return width * length; };
     - Первый пользователь нажимает зеленую кнопку для проверки решения
     - Второй  пользователь бездействует
   expected-result: |
